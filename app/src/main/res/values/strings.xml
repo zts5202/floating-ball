@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">悬浮球</string>
+    <string name="home_title">悬浮球</string>
+    <string name="home_body">打开后会在其他应用上层显示一个圆球。可以拖动，松手后贴到左右边缘。点一下展开快捷面板。</string>
+    <string name="enable_switch">启用悬浮球</string>
+    <string name="status_need_permission">尚未允许「显示在其他应用上层」。授权后返回本页会自动检测。</string>
+    <string name="status_running">悬浮球运行中</string>
+    <string name="status_off">悬浮球已关闭</string>
+    <string name="grant_permission">去授权</string>
+    <string name="action_home">主页</string>
+    <string name="action_shortcut">快捷</string>
+    <string name="action_close">关闭悬浮球</string>
+    <string name="shortcut_hint">功能即将推出</string>
+    <string name="ball_description">悬浮球</string>
+    <string name="panel_description">悬浮球快捷面板</string>
+    <string name="notif_channel_name">悬浮球</string>
+    <string name="notif_channel_description">悬浮球正在其他应用上层显示时的状态通知</string>
+    <string name="notif_title">悬浮球运行中</string>
+    <string name="notif_text">可拖拽的悬浮球正在显示。点按通知回到应用。</string>
+</resources>
