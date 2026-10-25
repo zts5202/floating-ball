@@ -26,8 +26,14 @@ jobs:
           distribution: temurin
           java-version: "17"
 
+      # v3 always installed the removed "tools" package and fails on current
+      # cmdline-tools ("Failed to find package 'tools'"). v4 does not, and an
+      # empty packages list skips the default platform-tools install so the
+      # next step can request the exact SDK packages this project needs.
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          packages: ''
 
       - name: Install SDK packages
         run: |
